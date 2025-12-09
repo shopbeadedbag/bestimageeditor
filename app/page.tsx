@@ -6,6 +6,8 @@ import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
 import Testimonials11 from "@/components/Testimonials11";
 import Footer from "@/components/Footer";
+import NanoBananaGenerator from '@/components/NanoBananaGenerator';
+
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
       </Suspense>
       <main>
         <Hero />
+        <NanoBananaGenerator />
         <Problem />
         <Pricing />
         <Testimonials11 />
